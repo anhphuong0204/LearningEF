@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\bin\Debug\ComicBookGalleryModel.exe.config
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\bin\Debug\ComicBookGalleryModel.exe
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\bin\Debug\ComicBookGalleryModel.pdb
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.csproj.CopyComplete
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.exe
+C:\Users\ASUS\Desktop\entity\ComicBookGalleryModel\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.pdb
