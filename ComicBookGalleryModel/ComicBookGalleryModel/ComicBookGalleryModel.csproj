@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Context.cs" />
     <Compile Include="Model\ComicBook.cs" />
+    <Compile Include="Model\Series.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

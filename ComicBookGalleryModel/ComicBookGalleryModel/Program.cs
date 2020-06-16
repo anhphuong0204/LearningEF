@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace ComicBookGalleryModel
 {
@@ -13,20 +14,34 @@ namespace ComicBookGalleryModel
         {
             using (var context = new Context())
             {
+                var series = new Series()
+                {
+                    Title = "Harry Potter"
+                };
+
                 context.ComicBooks.Add(new ComicBook()
                 {
-                    SeriesTitle = "Harry Potter and Deathly Hallows (Part 1)",
-                    IssueNumber = 7,
+                    Series = series,
+                    IssueNumber = 6,
                     Description = "The 7th part of Harry Potter seri",
+                    PublishedOn = DateTime.Today
+                });
+                context.ComicBooks.Add(new ComicBook()
+                {
+                    Series = series,
+                    IssueNumber = 7,
+                    Description = "The 6th part of Harry Potter seri",
                     PublishedOn = DateTime.Today
                 });
 
                 context.SaveChanges();
 
                 //retrieve data
-                var comicBooks = context.ComicBooks.ToList();
+                var comicBooks = context.ComicBooks
+                    .Include(cb => cb.Series)
+                    .ToList();
                 foreach (var comicBook in comicBooks)
-                    Console.WriteLine(comicBook.SeriesTitle + "  ---  " + comicBook.Description);
+                    Console.WriteLine(comicBook.DisplayText);
                 Console.ReadLine();
             }
         }
