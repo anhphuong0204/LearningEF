@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 namespace ComicBookGalleryModel.Model
 {
     public class ComicBook
-    {
+    { 
+        public ComicBook()
+        {
+            Artists = new List<ComicBookArtist>();
+        }
+
         public int Id { get; set; }
         public int SeriesId { get; set; }
         public int IssueNumber { get; set; }
@@ -15,8 +20,17 @@ namespace ComicBookGalleryModel.Model
         public DateTime PublishedOn { get; set; }
         public decimal? AverageRating { get; set; }
 
+        public ICollection<ComicBookArtist> Artists { get; set; }
         public Series Series { get; set; }
 
+        public void AddArtist(Artist artist, Role role)
+        {
+            Artists.Add(new ComicBookArtist()
+            {
+                Artist = artist,
+                Role = role,
+            });
+        }
         public string DisplayText {
             get
             {

@@ -54,7 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context.cs" />
+    <Compile Include="Model\Artist.cs" />
     <Compile Include="Model\ComicBook.cs" />
+    <Compile Include="Model\ComicBookArtist.cs" />
+    <Compile Include="Model\Role.cs" />
     <Compile Include="Model\Series.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
