@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\bin\Debug\ComicBookLibraryManager.exe.config
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\bin\Debug\ComicBookLibraryManager.exe
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\bin\Debug\ComicBookLibraryManager.pdb
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\obj\Debug\ComicBookLibraryManager.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\obj\Debug\ComicBookLibraryManager.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\obj\Debug\ComicBookLibraryManager.csproj.CopyComplete
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\obj\Debug\ComicBookLibraryManager.exe
+C:\Users\ASUS\Desktop\entity\ComicBookLibManager\ComicBookLibraryManager\obj\Debug\ComicBookLibraryManager.pdb
