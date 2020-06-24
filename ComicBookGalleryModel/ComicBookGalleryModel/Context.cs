@@ -12,14 +12,13 @@ namespace ComicBookGalleryModel
     {
         public Context()
         {
-            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<Context>());
-            Database.SetInitializer(new DropCreateDatabaseAlways<Context>());
+            Database.SetInitializer(new DatabaseInitializer());
         }
         public DbSet<ComicBook> ComicBooks { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            // Default: decimal(18, 2) for AverageRating -> Refine: decimal(5, 2) for ARating
+             //Default: decimal(18, 2) for AverageRating -> Refine: decimal(5, 2) for ARating
             modelBuilder.Entity<ComicBook>()
                 .Property(cb => cb.AverageRating)
                 .HasPrecision(5, 2);
@@ -28,7 +27,7 @@ namespace ComicBookGalleryModel
             modelBuilder.Entity<ComicBook>()
                 .Property(cb => cb.Description)
                 .IsRequired()
-                .HasMaxLength(200);
+                .HasMaxLength(500);
         }
     }
 }
